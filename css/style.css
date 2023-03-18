@@ -144,12 +144,10 @@ padding: 150px 0px 98px;
 .header-btn{
     background: #FF7143;
     color:#FFFFFF;
-    transform: scale(1.1);
 }
 .blue-btn{
 background: #5454D4;
 color: #FFFFFF;
-transform: scale(1.1);
 }
 .btn-group {
     border-radius: 10px;
