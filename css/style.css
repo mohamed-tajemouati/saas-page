@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #FFFFFF;
@@ -36,7 +39,6 @@ h5{
 
 li {
     list-style: none;
-    color: #696871;
 }
 
 span {
@@ -70,9 +72,12 @@ strong {
    text-align: center;         
    font-size: 17px;
    text-align: center;
-   border-radius: 10px;
    padding: 19px 60px;
    cursor: pointer;
+   }
+
+   .radius-button{
+    border-radius: 10px;
    }
 
 .container {
@@ -94,9 +99,15 @@ strong {
 
 .header-ul{
   gap: 49px;
+  color: #696871;
 }
 
 .border-blue:hover {
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+    padding-bottom: 10px;
+}
+.active {
     color: #19191B;
     border-bottom: 2px solid #5454D4;
     padding-bottom: 10px;
@@ -176,12 +187,13 @@ color: #FFFFFF;
 }
 
 .btn-group {
-    border-radius: 10px;
+   border-radius: 10px ;
     background:rgba(247, 247, 251, 1);
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding: 6px 9px;
+   /* padding: 6px 9px;*/
+    overflow: hidden;
 }
 
 .gray-btn {
@@ -200,14 +212,14 @@ color: #FFFFFF;
 
 .gray-btn:hover {
     background: #5454D4;
-    border-radius: 10px 0px 0px 10px;
+  /* border-radius: 10px 0px 0px 10px;*/
     color: #FFFFFF;
     padding: 23px 50px;
-      transform: scale(1.1);
+     /* transform: scale(1.1);*/;
 }
 
 .right-btn:hover{
-    border-radius: 0px 10px 10px 0px;
+   /* border-radius: 0px 10px 10px 0px;*/
 }
 
 .card-btn:hover{
@@ -236,19 +248,19 @@ color: #FFFFFF;
     transform: scaleY(1.1);
 }
 
-.card:hover>strong {
+.card:hover strong {
     color: #FFFFFF;
 }
 
-.card:hover>h5 {
+.card:hover h5 {
     opacity: 70%;
 }
 
-.card:hover>ul{
-    color: rgb(255, 255, 255, 1);
+.card:hover ul{
+    color: rgb(255, 255, 255 );
 }
 
 .card-list {
     margin-top: 25px;
-    font-size: 17px;
+    font-size: 17px;;
 }
