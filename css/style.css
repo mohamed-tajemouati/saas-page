@@ -188,11 +188,10 @@ color: #FFFFFF;
 
 .btn-group {
    border-radius: 10px ;
-    background:rgba(247, 247, 251, 1);
+    background:rgb(247, 247, 251);
     display: flex;
     align-items: flex-end;
     justify-content: center;
-   /* padding: 6px 9px;*/
     overflow: hidden;
 }
 
@@ -205,25 +204,21 @@ color: #FFFFFF;
 }
 
 .card-btn{
+    display: inline-block;
     margin-top: 36px;
     padding: 23px 82px;
     color: #5454D4;
+    background-color: #FFFFFF;
 }
 
 .gray-btn:hover {
     background: #5454D4;
-  /* border-radius: 10px 0px 0px 10px;*/
     color: #FFFFFF;
     padding: 23px 50px;
-     /* transform: scale(1.1);*/;
-}
-
-.right-btn:hover{
-   /* border-radius: 0px 10px 10px 0px;*/
 }
 
 .card-btn:hover{
-    background-color:  rgba(159, 57, 25, 1);
+    background-color:  rgb(159, 57, 25);
     color:rgb(255, 255, 255, 1)
 }
 
@@ -232,6 +227,7 @@ color: #FFFFFF;
     gap: 18px;
     justify-content: center;
     margin-bottom: 170px;
+    padding-top: 85px;
 }
 
 .card {
